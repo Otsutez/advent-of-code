@@ -17,7 +17,6 @@ bool is_number(const std::string& s) {
 void part_one() {
     std::vector<std::vector<ll>> nums;
     std::vector<char> ops;
-    // std::ifstream f("./puzzle_input/test.txt");
     std::ifstream f("./puzzle_input/day6.txt");
     for (std::string line; getline(f, line);) {
         std::stringstream ss(line);
